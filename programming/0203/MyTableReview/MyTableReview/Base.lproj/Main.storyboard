@@ -99,17 +99,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vkC-Lx-gdp">
-                                                    <rect key="frame" x="8" y="11.5" width="359" height="20.5"/>
+                                                    <rect key="frame" x="8" y="11" width="359" height="21"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nuj-gp-ZR2">
-                                                            <rect key="frame" x="0.0" y="0.0" width="175.5" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="176" height="21"/>
                                                             <color key="backgroundColor" red="0.67395864184411369" green="0.92838917118303421" blue="0.98132258653640747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcS-sm-86D">
-                                                            <rect key="frame" x="183.5" y="0.0" width="175.5" height="20.5"/>
+                                                            <rect key="frame" x="184" y="0.0" width="175" height="21"/>
                                                             <color key="backgroundColor" red="0.64228691241831926" green="0.98132258653640747" blue="0.48259815052501986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
