@@ -1,0 +1,6 @@
+framework module Pods_ImagesTable {
+  umbrella header "Pods-ImagesTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -20,7 +20,26 @@ class AddImageViewController: UIViewController {
     //제스쳐 레코나이져
     @IBAction func tapImageView(_ sender: UITapGestureRecognizer){
         print("User tapp ed ImageView");
-        self.showImagePicker(type: UIImagePickerControllerSourceType.photoLibrary)
+        //self.showImagePicker(type: UIImagePickerControllerSourceType.photoLibrary)
+        
+        let actionSheet: UIAlertController
+        actionSheet = UIAlertController(title: "액션 선택", message:"액션을 선택해주세요", preferredStyle:UIAlertControllerStyleAlert)
+        
+        let cancelAction = UIAlertAction(title:"cancel", style:UIAlertActionStyle.cancel,
+                                         handler:{(UIAlertAction) in
+        print("cancel")
+        })
+        
+        let libraryAction = UIAlertAction(title:"사진 가져오기", style:UIAlertActionStyle.default,
+                                         handler:{
+                                            (UIAlertAction) in
+                                            print("cancel")
+                                            self.showImagePicker(type: UIImagePickerControllerSourceType.photoLibrary)
+        })
+        let deleteAction = UIAlertAction(title:"OK", style:UIAlertActionStyle.cancel,
+                                         handler:{(UIAlertAction) in
+                                            print("cancel")
+        })
         
         
     }
@@ -30,7 +49,7 @@ class AddImageViewController: UIViewController {
         let imagePicker = UIImagePickerController()
         imagePicker.sourceType = type
         imagePicker.allowsEditing = true
-        //imagePicker.delegate = self
+        imagePicker.delegate = self
         
         present(imagePicker, animated: true, completion: {
             print("log")
@@ -39,6 +58,17 @@ class AddImageViewController: UIViewController {
         
     }
     
+    func imageOickerCotroller(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]){
+        
+        print("user selected image");
+        
+        if let pickedImage: UIImage = info[UIImagePickerControllerEditedImage] as? UIImage{
+            self.selectedImage.image = pickedImage
+        }
+        
+        picker.dismiss(animated: true, completion: nil)
+        
+    }
     
     
     
