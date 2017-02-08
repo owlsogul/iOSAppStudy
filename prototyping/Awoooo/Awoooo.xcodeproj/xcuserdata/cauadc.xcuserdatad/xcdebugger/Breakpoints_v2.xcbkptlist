@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Awoooo/ViewController.swift"
+            timestampString = "505358857.514718"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Awoooo.ViewController"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361580.99537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Awoooo.ViewController"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361580.998421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Awoooo.ViewController&gt;"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361581.001585"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Awoooo.ViewController&gt;"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361581.004675"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Awoooo/ViewController.swift"
+            timestampString = "505358857.612482"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.__deallocating_deinit"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361581.0135"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Awoooo.ViewController"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361581.01993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Awoooo.ViewController&gt;"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361581.02328"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Awoooo.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Awoooo.ViewController&gt;"
+                  moduleName = "Awoooo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cauadc/Desktop/Awoooo/Awoooo/ViewController.swift"
+                  timestampString = "505361581.026491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
